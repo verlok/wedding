@@ -1,21 +1,21 @@
 html {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
   -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
   margin: 1em;
   margin-top: 0;
   -webkit-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
@@ -46,5 +46,9 @@ header {
 h2,
 h3 {
   margin-top: 2em;
+}
+
+.data-e-chiesa span {
+  display: block;
 }
 /*# sourceMappingURL=common.css.map */

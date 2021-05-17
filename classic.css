@@ -14,7 +14,7 @@ body {
   font-weight: normal;
 }
 
-#data-e-chiesa {
+.data-e-chiesa {
   text-align: center;
   font-style: italic;
 }
@@ -26,10 +26,6 @@ header {
 .musica {
   text-align: center;
   font-weight: bold;
-  /* &::before,
-  &::after {
-    content: "🎵";
-  } */
   /* &::before {
     margin-right: 0.1em;
   }
