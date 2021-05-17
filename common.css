@@ -1,0 +1,35 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 1em;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+  text-align: center;
+}
+
+img {
+  display: block;
+}
+
+.sposi__img {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+h2,
+h3 {
+  margin-top: 2em;
+}
+/*# sourceMappingURL=common.css.map */
