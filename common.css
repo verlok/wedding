@@ -1,21 +1,21 @@
 html {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
   -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 body {
   margin: 1em;
   margin-top: 0;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
+  -webkit-hyphens: manual;
+      -ms-hyphens: manual;
+          hyphens: manual;
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
@@ -32,20 +32,19 @@ header {
   position: sticky;
   padding: 1em;
   top: 0;
-  height: 3.3em;
+  height: 80px;
   width: 100vw;
   margin: 0 -1em;
+}
+
+header button {
+  font-size: 1rem;
 }
 
 .sposi__img {
   margin: 0 auto;
   max-width: 100%;
   height: auto;
-}
-
-h2,
-h3 {
-  margin-top: 2em;
 }
 
 .data-e-chiesa span {

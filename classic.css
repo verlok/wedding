@@ -26,12 +26,6 @@ header {
 .musica {
   text-align: center;
   font-weight: bold;
-  /* &::before {
-    margin-right: 0.1em;
-  }
-  &::after {
-    margin-left: 0.1em;
-  } */
 }
 
 .musica::before {
