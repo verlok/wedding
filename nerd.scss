@@ -32,10 +32,8 @@
 %rainbow-animation {
   animation: rainbow-animation 1s steps(5, start) infinite;
 }
-
-html,
-body {
-  background: black;
+html {
+  background-color: rgb(46, 0, 55);
 }
 
 body {
