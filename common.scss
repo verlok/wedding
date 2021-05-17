@@ -10,6 +10,8 @@ html {
 
 body {
   margin: 1em;
+  margin-top: 0;
+  hyphens: auto;
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
@@ -18,6 +20,18 @@ body {
 
 img {
   display: block;
+}
+
+header {
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 1em;
+  top: 0;
+  height: 3.3em;
+  width: 100vw;
+
+  margin: 0 -1em;
 }
 
 .sposi {

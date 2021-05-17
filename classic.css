@@ -19,6 +19,10 @@ body {
   font-style: italic;
 }
 
+header {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
 .musica {
   text-align: center;
   font-weight: bold;
