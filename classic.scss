@@ -3,6 +3,7 @@
 body {
   font-family: "EB Garamond", serif;
   font-size: 1.4rem;
+  hyphens: none;
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
@@ -14,9 +15,17 @@ body {
   font-weight: normal;
 }
 
+section {
+  padding: 1em;
+}
+
 .data-e-chiesa {
   text-align: center;
   font-style: italic;
+}
+
+.scroll-down-to-continue {
+  display: none;
 }
 
 header {

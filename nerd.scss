@@ -41,6 +41,13 @@ body {
   font-size: 1.2rem;
   color: white;
   line-height: 1.7;
+  hyphens: manual;
+}
+
+section {
+  //min-height: 100vh;
+  background-image: linear-gradient(rgb(46, 0, 55), black);
+  padding: 3em 1em;
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
@@ -49,17 +56,17 @@ body {
 }
 
 h1 {
-  margin-top: 3em;
+  //margin-top: 3em;
   color: deeppink;
 }
 
 h2 {
-  margin-top: 5em;
+  //margin-top: 5em;
   color: yellow;
 }
 
 h3 {
-  margin-top: 3em;
+  margin-top: 2em;
   color: cyan;
 }
 
@@ -68,8 +75,13 @@ h3 {
   color: lightgray;
   &__data {
     margin-bottom: 1em;
-    @extend %blink-animation;
   }
+}
+
+.scroll-down-to-continue {
+  text-align: center;
+  margin-top: 3em;
+  @extend %blink-animation;
 }
 
 header {
