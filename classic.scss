@@ -1,3 +1,5 @@
+@import url("@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&display=swap');");
+
 body {
   font-family: "EB Garamond", serif;
   font-size: 1.4rem;
@@ -14,9 +16,29 @@ body {
 
 #data-e-chiesa {
   text-align: center;
+  font-style: italic;
 }
 
 .musica {
   text-align: center;
   font-weight: bold;
+
+  /* &::before,
+  &::after {
+    content: "🎵";
+  } */
+
+  &::before {
+    content: "🎵 ";
+  }
+  &::after {
+    content: " 🎵";
+  }
+
+  /* &::before {
+    margin-right: 0.1em;
+  }
+  &::after {
+    margin-left: 0.1em;
+  } */
 }
