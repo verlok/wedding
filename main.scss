@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+  text-align: center;
+}
+
+img {
+  display: block;
+}
+
+.sposi__img {
+  max-width: 100%;
+  height: auto;
+}
+
+#silvia-e-andrea {
+  font-style: italic;
+  font-weight: normal;
+}
+
+#data-e-chiesa {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 2em;
+  border: 1px solid black;
+}
+
+.musica {
+  text-align: center;
+  font-weight: bold;
+}
