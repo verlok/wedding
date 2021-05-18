@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import "./nes.css/nes";
 
 @keyframes blink-animation {
   to {
@@ -85,11 +86,24 @@ h3 {
 }
 
 header {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(46, 0, 55, 0.8);
+  height: 88px;
+
+  button {
+    font-family: inherit;
+    font-size: 12px;
+    @extend .nes-btn;
+  }
 }
 
 .sposi {
-  display: none;
+  padding-bottom: 72%;
+  background-image: url(../images/andrea-pixelated-320px.webp),
+    url(../images/silvia-pixelated-320px.webp);
+  background-size: 160px 230px;
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+  margin: 2em 0;
 }
 
 .musica {
