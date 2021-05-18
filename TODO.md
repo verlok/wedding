@@ -1,5 +1,6 @@
 
 - Max width per desktop
+- Button text changing
 - Sfondo gradient pixellato
 - Game over at the end
 - Credits at the end
@@ -9,3 +10,4 @@
 - 80 games GIFs
 - Pac-man GIF dopo il padre nostro
 - Points as you scroll down
+- TABLEAUX!
