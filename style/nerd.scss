@@ -176,9 +176,13 @@ header {
   margin: 2em 0;
 
   &::before {
-    content: "Ф ";
+    content: "🎹";
+    @extend %text-emoji;
   }
-  &::after {
-    content: " Ф";
-  }
+}
+
+.pacman {
+  background: url("../images/qrp.gif") no-repeat center;
+  background-size: 100px;
+  height: 100px;
 }
