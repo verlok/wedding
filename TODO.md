@@ -1,9 +1,11 @@
 
-- Points as you scroll down
+- Max width per desktop
+- Sfondo gradient pixellato
 - Game over at the end
-- Today's hi-score
+- Credits at the end
+- Today's hi-score (static)
 - Coins next to the blinking text
 - Blinking test = scroll down to play 
 - 80 games GIFs
-- Pac-man GIF when comunione
-- 
+- Pac-man GIF dopo il padre nostro
+- Points as you scroll down
