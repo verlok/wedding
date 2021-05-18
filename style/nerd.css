@@ -333,6 +333,11 @@ html {
   background-color: #2e0037;
 }
 
+.all::before, .reader::before, .andrea::before, .silvia::before {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
 body {
   font-family: "Press Start 2P", monospace;
   font-size: 0.8rem;
@@ -365,6 +370,38 @@ h2 {
 h3 {
   margin-top: 2em;
   color: cyan;
+}
+
+.all {
+  color: yellow;
+}
+
+.all::before {
+  content: "💒";
+}
+
+.reader {
+  color: greenyellow;
+}
+
+.reader::before {
+  content: "📖";
+}
+
+.andrea {
+  color: cyan;
+}
+
+.andrea::before {
+  content: "🤵🏻‍♂️";
+}
+
+.silvia {
+  color: deeppink;
+}
+
+.silvia::before {
+  content: "👰🏻";
 }
 
 .data-e-chiesa {
