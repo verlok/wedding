@@ -134,10 +134,17 @@ h3 {
   }
 }
 
-.scroll-down-to-continue {
-  text-align: center;
+.scroll-down-to-play {
+  display: flex;
+  justify-content: center;
+  column-gap: 1em;
   margin-top: 3em;
   @extend %blink-animation;
+  > .nes-icon {
+    transform: scale(1.5);
+    width: 16px;
+    height: 16px;
+  }
 }
 
 header {

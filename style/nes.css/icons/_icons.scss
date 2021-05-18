@@ -1,25 +1,25 @@
 // reaction
-@import "heart.scss";
-@import "star.scss";
-@import "like.scss";
+// @import "heart.scss";
+// @import "star.scss";
+// @import "like.scss";
 
 // sns
-@import "twitter.scss";
-@import "facebook.scss";
-@import "github.scss";
-@import "youtube.scss";
-@import "google.scss";
-@import "medium.scss";
-@import "twitch.scss";
-@import "reddit.scss";
-@import "whatsapp.scss";
-@import "gmail.scss";
-@import "linkedin.scss";
-@import "instagram.scss";
+// @import "twitter.scss";
+// @import "facebook.scss";
+// @import "github.scss";
+// @import "youtube.scss";
+// @import "google.scss";
+// @import "medium.scss";
+// @import "twitch.scss";
+// @import "reddit.scss";
+// @import "whatsapp.scss";
+// @import "gmail.scss";
+// @import "linkedin.scss";
+// @import "instagram.scss";
 
 // others
-@import "close.scss";
-@import "trophy.scss";
+// @import "close.scss";
+// @import "trophy.scss";
 @import "coin.scss";
 
 .nes-icon {
@@ -28,35 +28,7 @@
 
   position: relative;
   display: inline-block;
-  width: $icon-size;
-  height: $icon-size;
-  margin-right: $icon-size;
-  margin-bottom: $icon-size;
-
-  // NOTE: Use `transform: scale()` because cannot use font-size less than 10px on Chrome
-  // default 2px
-  transform: scale(2);
   transform-origin: top left;
-
-  &.is-small {
-    margin: 0;
-    // 1px
-    transform: scale(1);
-  }
-
-  &.is-medium {
-    margin-right: $icon-size * 2;
-    margin-bottom: $icon-size * 2;
-    // 3px
-    transform: scale(3);
-  }
-
-  &.is-large {
-    margin-right: $icon-size * 3;
-    margin-bottom: $icon-size * 3;
-    // 4px
-    transform: scale(4);
-  }
 
   &::before {
     position: absolute;
@@ -64,10 +36,9 @@
     left: $default-size * -1;
     display: block;
     content: "";
-    background: transparent;
   }
 
-  &.heart::before {
+  /* &.heart::before {
     @include pixelize($default-size, $icon-heart, $icon-heart-colors);
   }
   &.heart.is-half::before {
@@ -157,7 +128,7 @@
 
   &.instagram::before {
     @include pixelize($default-size, $icon-instagram, $icon-instagram-colors);
-  }
+  } */
 
   &.coin::before {
     @include pixelize($default-size, $icon-coin, $icon-coin-colors);
