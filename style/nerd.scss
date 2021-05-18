@@ -55,6 +55,14 @@ header, section {
   margin: 0 auto;
 }
 
+.toggleLayout__gamer {
+  display: none;
+}
+
+.toggleLayout__booklet > .emoji {
+  @extend %text-emoji;
+}
+
 section {
   background-image: linear-gradient(rgb(46, 0, 55), black);
   padding: 3em 1em;

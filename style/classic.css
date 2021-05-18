@@ -17,12 +17,16 @@ body {
   font-weight: normal;
 }
 
+.toggleLayout__booklet {
+  display: none;
+}
+
 section {
   padding: 1em;
 }
 
 .sposi {
-  background-image: url(../images/sposi.jpg);
+  background-image: url(../images/sposi.webp);
   width: 100%;
   background-size: 100% auto;
   background-position: center center;
