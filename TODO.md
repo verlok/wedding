@@ -1,6 +1,5 @@
 
-- Button text changing
-- Sfondo gradient pixellato
+
 - Game over at the end
 - Credits at the end
 - Today's hi-score (static)

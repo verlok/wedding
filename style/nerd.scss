@@ -1,5 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import "./nes.css/nes";
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+$russian-violet: #2e0037ff;
+$russian-violet-08: #2e0037cc;
+$dark-purple-2: #17001cff;
+$black: #000000ff;
 
 @keyframes blink-animation {
   to {
@@ -34,7 +39,7 @@
   animation: rainbow-animation 1s steps(5, start) infinite;
 }
 html {
-  background-color: rgb(46, 0, 55);
+  background-color: $russian-violet;
 }
 
 %text-emoji {
@@ -50,7 +55,8 @@ body {
   hyphens: manual;
 }
 
-header, section {
+header,
+section {
   max-width: 420px;
   margin: 0 auto;
 }
@@ -60,13 +66,17 @@ header, section {
 }
 
 .toggleLayout__booklet > .emoji {
-  @extend %text-emoji;
+  font-size: 18px;
+  margin-right: 7px;
 }
 
 section {
-  background-image: linear-gradient(rgb(46, 0, 55), black);
+  background: $dark-purple-2;
+  background: linear-gradient(
+    $russian-violet,
+    $black
+  );
   padding: 3em 1em;
-  
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
@@ -131,12 +141,12 @@ h3 {
 }
 
 header {
-  background-color: rgba(46, 0, 55, 0.8);
-  height: 4.6rem;
+  background-color: $russian-violet-08;
+  height: 82px;
 
   button {
     font-family: inherit;
-    font-size: 12px;
+    font-size: 10px;
     @extend .nes-btn;
   }
 }

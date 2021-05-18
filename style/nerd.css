@@ -1,10 +1,10 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 /*!***************************************************************************\
   NES.css Framework
   Version: development
 build-data()
 \*****************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @-webkit-keyframes blink {
   0% {
     opacity: 1;
@@ -330,10 +330,10 @@ build-data()
 }
 
 html {
-  background-color: #2e0037;
+  background-color: #2e0037ff;
 }
 
-.toggleLayout__booklet > .emoji, .all::before, .reader::before, .andrea::before, .silvia::before {
+.all::before, .reader::before, .andrea::before, .silvia::before {
   font-size: 24px;
   margin-right: 10px;
 }
@@ -348,7 +348,8 @@ body {
           hyphens: manual;
 }
 
-header, section {
+header,
+section {
   max-width: 420px;
   margin: 0 auto;
 }
@@ -357,9 +358,15 @@ header, section {
   display: none;
 }
 
+.toggleLayout__booklet > .emoji {
+  font-size: 18px;
+  margin-right: 7px;
+}
+
 section {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#2e0037), to(black));
-  background-image: linear-gradient(#2e0037, black);
+  background: #17001cff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2e0037ff), to(#000000ff));
+  background: linear-gradient(#2e0037ff, #000000ff);
   padding: 3em 1em;
 }
 
@@ -428,13 +435,13 @@ h3 {
 }
 
 header {
-  background-color: rgba(46, 0, 55, 0.8);
-  height: 4.6rem;
+  background-color: #2e0037cc;
+  height: 82px;
 }
 
 header button {
   font-family: inherit;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .sposi {
