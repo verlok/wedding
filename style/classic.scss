@@ -43,6 +43,11 @@ header {
   height: 80px;
 }
 
+header, section {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 .all {
   font-weight: bold;
 }

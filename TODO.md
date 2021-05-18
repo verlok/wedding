@@ -1,5 +1,4 @@
 
-- Max width per desktop
 - Button text changing
 - Sfondo gradient pixellato
 - Game over at the end

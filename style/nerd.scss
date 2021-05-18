@@ -50,9 +50,15 @@ body {
   hyphens: manual;
 }
 
+header, section {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
 section {
   background-image: linear-gradient(rgb(46, 0, 55), black);
   padding: 3em 1em;
+  
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
@@ -128,7 +134,7 @@ header {
 }
 
 .sposi {
-  padding-bottom: 72%;
+  height: 230px;
   background-image: url(../images/beating-heart.gif),
     url(../images/silvia-pixelated-320px.webp),
     url(../images/andrea-pixelated-320px.webp);
