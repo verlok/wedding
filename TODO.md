@@ -1,5 +1,4 @@
 
-- Insert google analytics
 - 80 games GIFs
 - Pac-man GIF dopo il padre nostro
 - Game over at the end
