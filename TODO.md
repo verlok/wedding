@@ -1,7 +1,7 @@
-
+- Earn points as you scroll down
+- Sections entering give bonus points and display an effect using an animation
+- Today's hi-score (not achievable)
+- "Game over" text and animation at the end + scoring stops
+- Credits after game over - scrolling down below the end
+- Tableaux? Separate page? Just a link to a google doc spreadsheet? 
 - More 80 games GIFs?
-- Game over at the end
-- Credits at the end
-- Today's hi-score (static)
-- Points as you scroll down
-- TABLEAUX!
