@@ -72,11 +72,8 @@ section {
 
 section {
   background: $dark-purple-2;
-  background: linear-gradient(
-    $russian-violet,
-    $black
-  );
-  padding: 3em 1em;
+  background: linear-gradient($russian-violet, $black);
+  padding: 3rem 1rem;
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
@@ -93,7 +90,7 @@ h2 {
 }
 
 h3 {
-  margin-top: 2em;
+  margin-top: 2rem;
   color: cyan;
 }
 
@@ -130,15 +127,15 @@ h3 {
   text-align: center;
   color: lightgray;
   &__data {
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
   }
 }
 
 .scroll-down-to-play {
   display: flex;
   justify-content: center;
-  column-gap: 1em;
-  margin-top: 3em;
+  column-gap: 1rem;
+  margin-top: 3rem;
   @extend %blink-animation;
   > .nes-icon {
     transform: scale(1.5);
@@ -166,18 +163,25 @@ header {
   background-size: 100px 100px, 160px 230px, 160px 230px;
   background-position: center, left top, right top;
   background-repeat: no-repeat;
-  margin: 2em 0;
+  margin: 2rem 0;
 }
 
-.musica {
-  text-align: center;
-  font-weight: bold;
-  @extend %rainbow-animation;
-  margin: 2em 0;
+.canzone {
+  margin: 2rem 0;
+  &__body {
+    border-left: 2px dotted white;
+     padding-left: 1rem;
+  }
+  &__title {
+    text-align: center;
+    font-weight: bold;
+    @extend %rainbow-animation;
+    margin: 2rem 0;
 
-  &::before {
-    content: "🎹";
-    @extend %text-emoji;
+    &::before {
+      content: "🎹";
+      @extend %text-emoji;
+    }
   }
 }
 

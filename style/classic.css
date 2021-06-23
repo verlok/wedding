@@ -22,7 +22,7 @@ body {
 }
 
 section {
-  padding: 1em;
+  padding: 1rem;
 }
 
 .sposi {
@@ -49,7 +49,8 @@ header {
   height: 80px;
 }
 
-header, section {
+header,
+section {
   max-width: 600px;
   margin: 0 auto;
 }
@@ -63,16 +64,25 @@ header, section {
   font-size: 110%;
 }
 
-.musica {
+.canzone {
+  margin: 2rem 0;
+}
+
+.canzone__body {
+  border-left: 1px solid grey;
+  padding-left: 1rem;
+}
+
+.canzone__title {
   text-align: center;
   font-weight: bold;
 }
 
-.musica::before {
+.canzone__title::before {
   content: "🎵 ";
 }
 
-.musica::after {
+.canzone__title::after {
   content: " 🎵";
 }
 /*# sourceMappingURL=classic.css.map */

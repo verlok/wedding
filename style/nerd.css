@@ -354,7 +354,7 @@ build-data()
   }
 }
 
-.musica {
+.canzone__title {
   -webkit-animation: rainbow-animation 1s steps(5, start) infinite;
           animation: rainbow-animation 1s steps(5, start) infinite;
 }
@@ -363,7 +363,7 @@ html {
   background-color: #2e0037ff;
 }
 
-.all::before, .reader::before, .andrea::before, .silvia::before, .musica::before {
+.all::before, .reader::before, .andrea::before, .silvia::before, .canzone__title::before {
   font-size: 24px;
   margin-right: 10px;
 }
@@ -397,7 +397,7 @@ section {
   background: #17001cff;
   background: -webkit-gradient(linear, left top, left bottom, from(#2e0037ff), to(#000000ff));
   background: linear-gradient(#2e0037ff, #000000ff);
-  padding: 3em 1em;
+  padding: 3rem 1rem;
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
@@ -414,7 +414,7 @@ h2 {
 }
 
 h3 {
-  margin-top: 2em;
+  margin-top: 2rem;
   color: cyan;
 }
 
@@ -456,7 +456,7 @@ h3 {
 }
 
 .data-e-chiesa__data {
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 .scroll-down-to-play {
@@ -466,9 +466,9 @@ h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-column-gap: 1em;
-          column-gap: 1em;
-  margin-top: 3em;
+  -webkit-column-gap: 1rem;
+          column-gap: 1rem;
+  margin-top: 3rem;
 }
 
 .scroll-down-to-play > .nes-icon {
@@ -494,16 +494,25 @@ header button {
   background-size: 100px 100px, 160px 230px, 160px 230px;
   background-position: center, left top, right top;
   background-repeat: no-repeat;
-  margin: 2em 0;
+  margin: 2rem 0;
 }
 
-.musica {
+.canzone {
+  margin: 2rem 0;
+}
+
+.canzone__body {
+  border-left: 2px dotted white;
+  padding-left: 1rem;
+}
+
+.canzone__title {
   text-align: center;
   font-weight: bold;
-  margin: 2em 0;
+  margin: 2rem 0;
 }
 
-.musica::before {
+.canzone__title::before {
   content: "🎹";
 }
 
